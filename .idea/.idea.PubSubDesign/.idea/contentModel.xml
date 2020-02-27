@@ -5,6 +5,21 @@
     <e p="C:\Users\rjedr\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_PubSubDesign.98463828.00" t="ExcludeRecursive" />
     <e p="C:\Users\rjedr\RiderProjects\PubSubDesign" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
+      <e p="PubSubDesign" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="EventArguments.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="PubSubDesign.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Publisher.cs" t="Include" />
+        <e p="PubSubDesign.csproj" t="IncludeRecursive" />
+        <e p="Subscriber.cs" t="Include" />
+      </e>
       <e p="PubSubDesign.sln" t="IncludeFlat" />
       <e p="PubSubWithRedis" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />

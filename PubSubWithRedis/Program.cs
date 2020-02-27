@@ -25,11 +25,11 @@ namespace PubSubDesign
             sub.Subscribe("koperta", (channel, value) => Console.WriteLine($"{consumerName} odebralem: {value}"));
         }
         
-        private static void Publish(ISubscriber sub, string punlisherName)
+        private static void Publish(ISubscriber sub, string publisherName)
         {
             for (int i = 0; i < 50; i++)
             {
-                Console.WriteLine($"{punlisherName} Wyslalem wiadomoc {i}");
+                Console.WriteLine($"{publisherName} Wyslalem wiadomoc {i}");
                 sub.Publish("koperta", $"Tresc wiadomosci {i}");
                 Thread.Sleep(1000);
             }

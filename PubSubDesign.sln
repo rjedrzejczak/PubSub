@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSubWithRedis", "PubSubWithRedis\PubSubWithRedis.csproj", "{AE39C814-832D-44F6-A7B9-93CBCA0B42C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSubDesign", "PubSubDesign\PubSubDesign.csproj", "{2B9B74D1-FAC3-4106-A775-A22DD47F2D7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{AE39C814-832D-44F6-A7B9-93CBCA0B42C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE39C814-832D-44F6-A7B9-93CBCA0B42C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE39C814-832D-44F6-A7B9-93CBCA0B42C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9B74D1-FAC3-4106-A775-A22DD47F2D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9B74D1-FAC3-4106-A775-A22DD47F2D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9B74D1-FAC3-4106-A775-A22DD47F2D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9B74D1-FAC3-4106-A775-A22DD47F2D7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
